@@ -1,4 +1,4 @@
-<div>
+<div style="background: lightgray">
     <aside>
         <p>Input $selected</p>
         @dump($selected)

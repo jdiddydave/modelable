@@ -1,4 +1,4 @@
-<form>
+<form style="background: grey">
     <aside>
         <p>Form $product</p>
         @dump($product)
