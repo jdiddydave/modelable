@@ -7,7 +7,7 @@
     <ul>
         @foreach ($products as $product)
         {{-- <li wire:click="select('{{ $product }}')"> --}}
-        <li wire:click="$set('selected', '{{ $product }}')">
+            <li wire:click="select('{{ $product }}')">
                 <a href="#">{{ $product }}</a>
             </li>
         @endforeach

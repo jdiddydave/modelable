@@ -6,7 +6,13 @@ use Livewire\Component;
 
 class ParentComponent extends Component
 {
-    public $childValue = 'Initial Value';
+    public $child = 'Starting Value';
+
+    public function click()
+    {
+        // it seems we need a click for the wire:model value to update
+        return true;
+    }
 
     public function render()
     {
