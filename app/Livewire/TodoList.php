@@ -14,6 +14,6 @@ class TodoList extends Component
     {
         $this->todos[] = $this->todo;
 
-        // $this->reset('todo');
+        $this->reset('todo');
     }
 }

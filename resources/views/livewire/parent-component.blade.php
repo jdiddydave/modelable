@@ -4,4 +4,6 @@
     <p>Value from Child Component: {{ $child }}</p>
 
     <livewire:child-component wire:model="child" />
+
+    {{-- <button wire:click="$refresh">Refresh Parent</button> --}}
 </div>
