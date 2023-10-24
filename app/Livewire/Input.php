@@ -2,8 +2,8 @@
 
 namespace App\Livewire;
 
-use Livewire\Attributes\Modelable;
 use Livewire\Component;
+use Livewire\Attributes\Modelable;
 
 class Input extends Component
 {
