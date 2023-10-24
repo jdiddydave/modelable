@@ -10,4 +10,4 @@ Added two more examples:
 1. TodoList and TodoInput (from LW docs)
 2. ParentComponent and ChildComponent
 
-Each seems to need a `wire:click="foo"` on the Parent to display the Child Value.
+Each seems to need to make a request on the Parent to display the Child Value.
