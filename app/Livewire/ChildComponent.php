@@ -8,7 +8,7 @@ use Livewire\Attributes\Modelable;
 class ChildComponent extends Component
 {
     #[Modelable]
-    public $value = '';
+    public $foo = '';
 
     public function render()
     {

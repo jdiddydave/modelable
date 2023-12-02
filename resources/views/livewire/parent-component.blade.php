@@ -1,9 +1,7 @@
 <div style="background: grey">
     <h1>Parent Component</h1>
 
-    <p>Value from Child Component: {{ $child }}</p>
+    <p>{{ $message }}</p>
 
-    <livewire:child-component wire:model="child" />
-
-    {{-- <button wire:click="$refresh">Refresh Parent</button> --}}
+    <livewire:child-component wire:model.live="message" />
 </div>

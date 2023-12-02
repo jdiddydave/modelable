@@ -6,7 +6,7 @@ use Livewire\Component;
 
 class ParentComponent extends Component
 {
-    public $child = 'Starting Value';
+    public $message = 'Hello World';
 
     public function render()
     {
